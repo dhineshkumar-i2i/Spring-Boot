@@ -1,5 +1,5 @@
 pipeline {
-  agent {'Ubuntu_slave1'}
+  agent {label 'Ubuntu_slave1'}
   stages{
     stage("clean"){
       steps {
